@@ -46,5 +46,9 @@ const missoes = [
     {nome: "Coletar recursos", status: "concluida"}
 ];
 
+const concluidas = filtrarMissoesConcluidas(missoes);
+console.log("Missões concluídas: " , concluidas);
 
-console.log(missoes);
+const mochila = ["Mapa","Lanterna"];
+const mochilaAtualizada = atualizarInventario(mochila, "pegar", "Bússola");
+console.log("Mochila após pegar:" mochilaAtualizada);
