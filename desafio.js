@@ -30,7 +30,6 @@ let diferenca = maiorNota - menorNota;
 
 console.log(`Nota da Prova: ${notaProva}`);
 console.log(`Nota do Trabalho: ${notaTrabalho}`);
-console.log("-----------------------");
 console.log(`Média Final: ${mediaFinal.toFixed(1)}`);
 console.log(`Maior Nota: ${maiorNota}`);
 console.log(`Menor Nota: ${menorNota}`);
