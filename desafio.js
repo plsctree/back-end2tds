@@ -3,6 +3,8 @@
 // 🔴 3. Calcular a média final. Declarar nota de prova e nota de trabalho. Calcular também a difrença da maior nota e menor
 // 🔴 4. 0 aluno é aprovado se a média for maior ou igual a 6 e a frequência for maior que 75. Crie a variáveis neceária para realizar esta comparação e exibir o 
 // resultado
+// De acordo com as variáveis lançadas e declaradas, quais processos ou qual processo pode ser alterado para uma função?
+//Afunção reproduz um comportamento de ação, ela tem mais de uma informação de variável
 // Fazer uma saída de forma interpolada (´${}´) ] 
 
 const nomeCompleto = "Luana Coutto";
@@ -42,3 +44,11 @@ let aprovado = mediaFinal >= 6 && frequencia > 75;
 
 console.log(`Frequência: ${frequencia}%`);
 console.log(`Status de Aprovação: ${aprovado ? "Aprovado(a)" : "Reprovado(a)"}`);
+
+// Função
+
+function saudar(nome) {
+    return "Olá, " + nome + "! Seja bem-vindo(a).";
+}
+
+console.log(saudar("Luana Coutto")); 
